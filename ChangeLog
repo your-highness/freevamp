@@ -1,0 +1,31 @@
+Tue Feb  7 20:14:15 2006  Gary Wong  <gtw@gnu.org>
+
+	* configure.in: Version 0.9.3 pre-released.
+	* freevamp.c: Don't disable deprecated functions.
+
+Fri Jan 24 09:59:53 2003  Gary Wong  <gtw@gnu.org>
+
+	* freevamp.c: Internationali[sz]ed.
+
+2003-01-23  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): New variable.
+	(ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): Add config.rpath.
+	* configure.in (AC_OUTPUT): Add intl/Makefile,
+
+Wed Jan 22 09:52:48 2003  Gary Wong  <gtw@gnu.org>
+
+	* freevamp.c (CreateEditorWindow): Create all amp widgets, even
+	on a V-AMP 1 (otherwise the treble control failed).  Reported by
+	Luca De Rugeriis.  Version 0.9.2 pre-released.
+
+Mon Jan 20 13:37:46 2003  Gary Wong  <gtw@gnu.org>
+
+	* freevamp.c: Various patches to support the V-AMP 1.  Version
+	0.9.1 pre-released.
+
+Thu Jul 25 16:46:00 2002  Gary Wong  <gtw@gnu.org>
+
+	* Version 0.9 pre-released.
+
